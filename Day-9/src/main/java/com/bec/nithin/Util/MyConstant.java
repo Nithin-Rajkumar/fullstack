@@ -29,9 +29,5 @@ public class MyConstant {
     public static final List<String> METHODS = Arrays.asList(GET.name(), POST.name(), PUT.name(), DELETE.name(),
             HEAD.name(), PATCH.name());
 
-    public static final String SWAGGER_LOCALHOST_URL = "http://localhost:8181";
-    public static final String SWAGGER_SECURITY_SCHEME_NAME = "bearerAuth";
-    public static final String SWAGGER_SCHEME = "bearer";
-    public static final String SWAGGER_BEARER_FORMAT = "JWT";
-    public static final String SWAGGER_DESCRIPTION = "Produce a Json Token";
+    
 }
